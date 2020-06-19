@@ -1,0 +1,24 @@
+Biofeasible Cryptography (aka. Security Abacus)
+
+James Mickens proposes the idea of a security abbacus. This is a device that is able to encrypt data and at the same time easy for a human to determine if the device has not been tampered with. In other words, a human being can check that a message is not being changed before it gets encrypted.
+
+The main challenge for a security abbacus is that the bandwith between computers and humans y very low so it is hard for the human to analyze all the data being sent to ensure its integrity. However, if this barrier could be overcome, it would be possible for a human to inspect significant ammoutn of data sent over the internet.
+
+The only channel that has a high bandwith in the humman body is vision. Eyes are estimated to have a resolution of 400 Megapixeles. That is a very impressive ammount of data bandwith. This means that the only messages a human is able to verify reliably are encoded visually.
+
+So the challenge is to encrypt the messages visually. I propose the following method. A cryptographic disk is created. This is a very simple mechanical device. It is a wheel of colors and each of the colors of the wheel is a different color. Now this wheel can be placed before light and it wil alter the wavelength of the light passing through it. This is a very simple mechanical device that a humman can inspect, furthermore the human can easily remember what is the pattern of colors in a disk. The device can be modular and disassembabble that way a human is able to remember how the colors are arranged and then store it by peices so it would be difficult for another person to determine what is the correct key since he would only see the wheel and all the possible glasses or lenses that can be applied to it.
+
+These lenses also have the property that they focus light. So they can be placed on a spinning wheel which spins at a certain speed. Say 50 rpm, so a human is able to know if it is spinning at the correct speed. So the spinning wheel is placed in fron of a light source. Given that the pattern of lights in the wheel are random and it is spinning at a significant speed, The light that will be focused will rapidly flicker colors. This randomly flickering beam of light will be combined with the message.
+
+So the image that will be sent as a message must first be compressed using *physical lenses*. This gives an interesting property because the focused beam can be observed by a human with a physical lense. So the human can be sure that the image that is beign emitted by the device is the intented message. In other words it has not been tampered with. This is a very simply physical inspection. All the cumman needs to do is look at the focused light beam with a lens. The human doesnt need to rely on computers either.
+
+Another property of the beam is that it gets compressed to the same rate as the random beam we discussed earler. So when theese two beams are combined into a single beam, the original message will be superimposed in the random data which makes it a bit harder to
+read. Note that this process can be repeated as many times as possible and on each repetition the message will become harder to read or in other words more cryptographically secure.
+
+Now the light can be sent over fiber optics or even as data. As long as the resolution is good enough, the wave can be digitalized and sent over. The original message will remain mostly unreadable because the colors of the digitalized wave will change very quickly showing only random noise.
+
+However, once the beam is received by the intendet recepient. He can apply the reverse process. Or in other words, just put spinning wheels in the inverse order and same speeds as the sender did and all the noise will be removed from the light beam and the message will bbe restored to normal. Note that the recepient can also visually inspect the message by simply using a physical lens to look at the light beam directly.
+
+This device significantly reduces the barrier required for humans to exchange cryptographically secure information. The encryption and decryption devices are physical and require no electronics other than control units to select the correct speed at which the wheels will spin which is a physical property that a human is capable to easily verify.
+
+The circuit is simple enough that the average person would be able to build it out of simple electronic components if she wishes.
