@@ -1,0 +1,6 @@
+App on a Key - Codename: The infinite Rick
+
+La idea es que mediante la utilizacion de docker, se puede tener un dispositivo usb que basicamente es una
+computadora auto-contenida donde corren applicaciones. La ventaja aqui es que esta computadora se puede utilizar para correr applicaciones de forma segura. Por ejemplo:
+
+Se puede crear una familia de llaves criptograficas con firmas de anillo. Entonces a cada dispositivo usb (o pcie) o incluso memoria compartida se le puede distribuir una firma criptografica del anillo. De esa manera pueden verificar que todo el trafico que se intercambia entre el dispositivo y la computadora tiene una firma del anillo.
